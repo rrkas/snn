@@ -1,0 +1,44 @@
+{
+    "references/11Vol98No24.pdf": {
+        "variants of eSNN": {
+            "Hybridization": "covers studies which present eSNN as a hybrid model with different algorithms",
+            "Modifications": "studies that modified eSNN architecture to solve some real-world tasks",
+            "Multi-objective": "studies which involve eSNN for multi-objective optimization",
+            "Dynamic": "studies about Dynamic eSNN",
+            "Integration": "studies that used eSNN to propose integrated models"
+        },
+        "ANN": [
+            "motivated by the erection and human brain purpose",
+            "used as an influential computational mechanism to unravel complex function estimation, classification problems, and pattern recognition",
+            "converted the in-practice standard means to execute supervised, unsupervised, and reinforcement learning tasks",
+            "important developments have been made through algorithmic development"
+        ],
+        "Need of SNN": [
+            "Investigations of the cortical pyramidal neurons revealed discrete spikes timing as a mode of encrypting information, which is very imperative in neural networks",
+            "considerably close to the human brain structure due to their spiking nature",
+            "increases the level of biological pragmatism by using individual spikes and plays a key role in biological information processing",
+            "competent to process a considerable number of facts using comparatively few spikes",
+            "allow integration of spatial-temporal data for communication and computation as actual neurons do"
+        ],
+        "Conversion of real-world data": {
+            "rate order encoding": "amplitudes are transformed into the (instantaneous) spiking amount of neurons",
+            "time encoding": "amplitudes are encoded into spike timings",
+            "population coding": "amplitudes are programmed into the direct shooting rate"
+        },
+        "eSNN": [
+            "one- pass, on-line learning technique, where new data is learned incrementally, including the merging/aggregating production neurons",
+            "Built on the ECOS methodology",
+            "originally designed as a visual pattern recognition scheme",
+            "can learn fast and it studies a new pattern that comes from the incoming data in one pass-mode that will form a new network without retraining",
+            "widely applied to solve classification issue, prediction problem and pattern recognition",
+            "To organize real-valued facts, each data model i.e. vectors of real-valued elements is plotted into a sequence of spikes using a convinced neural encoding procedure",
+            "enhances the importance of the direction in which input spikes reach, so making the eSNN appropriate for a variety of applications",
+            "self-evolutionary in terms of success, behavior, connected knowledge representation, and global fault tolerance"
+        ],
+        "core parameters": [
+            "modulation factor (Mod)",
+            "threshold factor  (C)",
+            "similarity value  (Sim)"
+        ]
+    }
+}
