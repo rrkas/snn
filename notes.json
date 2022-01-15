@@ -39,6 +39,38 @@
             "modulation factor (Mod)",
             "threshold factor  (C)",
             "similarity value  (Sim)"
-        ]
+        ],
+        "Learning of eSNN" : [
+            "the propagate single sample from class K, into the first and second layer",
+            "create a neuron at layer three for sample propagated at preceding layers and weight training",
+            "similarity factor is calculated between the newly created neurons and the neurons that are already presented in the respective class. To calculate similarity inverse of Euclidean Distance(between connection weights of neurons) is used.",
+            "the newly created neuron joins any of the class based on calculated similarity value (if it is greater than the selected threshold value)"
+        ],
+        "VARIANTS OF eSNN": {
+            "eSNN-FA (Firefly Algorithm)": [
+                "Nature-inspired meta-heuristic algorithm, for parameter optimization of the eSNN model",
+                "FA is used to determine the optimum value of eSNN parameter which are a mod factor, sim factor, and C factor (threshold)",
+                "parameters of eSNN are optimized using FA to get optimal performance",
+                "The integration of eSNN-FA is conducted using the well-known Wrapper method",
+                "The wrapper method takes the classifier and melds with an optimization algorithm",
+                "a set of random values is used to initialize all the candidates",
+                "candidates interact with each other founded on classification precision",
+                "As an example, all contributing samples will be programmed into spikes and pass over the eSNN model to discover the current suitability",
+                "The FA-Best is assigned with the best classification accuracy hold by the candidates",
+                "If the FA candidates encounter a better result compared to the FA-Best, the newly created FA-Best will replace the FA-Best",
+                "The iteration will be repeated until the termination criterion is reached."
+            ],
+            "Multi-objective Optimization (MOO) of eSNN": [
+                "enhances the process of optimization",
+                "The progression of systematically adjusting objectives at a similar time is acknowledged as vector optimization or MOO",
+                "Synchronized optimization is the need for various real-life optimization problems with two or more objective functions",
+                "In this hybrid process, k-means improve eSNN knowledge founded on multi-objective D.E by categorizing given information through a certain number of bunches (k clusters).",
+                "Three main parameters that influence the segregation outcome of eSNN are optimized in this work and are known as the Mod(modulation factor), C(threshold), and Sim(similarity factor).",
+                "The proposed model lifts the adaptability of eSNN in giving a better solution that can be used to conquer k-means disadvantages."
+            ],
+            "Dynamic eSNN": [
+                "A fully connected neural network"
+            ]
+        }
     }
 }
